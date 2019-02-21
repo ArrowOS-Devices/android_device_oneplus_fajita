@@ -24,7 +24,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := flash_defconfig
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # inherit from the proprietary version
 -include vendor/oneplus/sdm845-common/BoardConfigVendor.mk
